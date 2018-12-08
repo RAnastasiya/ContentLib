@@ -32691,127 +32691,33 @@ var HeaderMenu = function HeaderMenu(_ref) {
       { className: "header-nav" },
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { to: "/company" },
-        "Company"
-      ),
-      _react2.default.createElement(
-        "div",
-        { className: "our-solution" },
-        _react2.default.createElement(
-          _reactRouterDom.Link,
-          { to: "/our-solution" },
-          "Our Solutions"
-        ),
-        _react2.default.createElement(
-          "div",
-          { className: "arrow" },
-          " > "
-        ),
-        _react2.default.createElement(
-          "div",
-          { className: "our-solution-block" },
-          _react2.default.createElement(
-            "div",
-            null,
-            _react2.default.createElement(
-              "div",
-              { className: "for-driver" },
-              _react2.default.createElement(
-                "h1",
-                null,
-                "For driver"
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "icon for-driver" },
-                _react2.default.createElement(
-                  _reactRouterDom.Link,
-                  { to: "/driver" },
-                  "For driver >"
-                )
-              ),
-              _react2.default.createElement(
-                "p",
-                null,
-                "Rent, manage, get money, communicate and get request"
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "for-fleet" },
-              _react2.default.createElement(
-                "h1",
-                null,
-                "For fleet"
-              ),
-              _react2.default.createElement(
-                "div",
-                null,
-                _react2.default.createElement(
-                  "div",
-                  { className: "icon enterprise" },
-                  _react2.default.createElement(
-                    _reactRouterDom.Link,
-                    { to: "/enterprise" },
-                    "Lacus Enterprise >"
-                  )
-                ),
-                _react2.default.createElement(
-                  "p",
-                  null,
-                  "Manage, dispatch, maintain"
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                null,
-                _react2.default.createElement(
-                  "div",
-                  { className: "icon maintenance" },
-                  _react2.default.createElement(
-                    _reactRouterDom.Link,
-                    { to: "/maintenance" },
-                    "Lacus Maintenance >"
-                  )
-                ),
-                _react2.default.createElement(
-                  "p",
-                  null,
-                  "Eco-System for Inventory and Repair Management"
-                )
-              )
-            )
-          ),
-          _react2.default.createElement(
-            "div",
-            { className: "lacus-ai" },
-            _react2.default.createElement(
-              "div",
-              null,
-              _react2.default.createElement(
-                _reactRouterDom.Link,
-                { to: "/lacus-ai" },
-                "Lacus Ai >"
-              ),
-              _react2.default.createElement(
-                "p",
-                null,
-                "Tailored Artifical Intelligence for Taxi Industry"
-              )
-            ),
-            _react2.default.createElement("div", { className: "icon" })
-          )
-        )
+        { to: "/" },
+        "Home"
       ),
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { to: "/contact" },
-        "Contact"
+        { to: "/news" },
+        "News"
       ),
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { to: "/help" },
-        "Help"
+        { to: "/features" },
+        "Features"
+      ),
+      _react2.default.createElement(
+        _reactRouterDom.Link,
+        { to: "/events" },
+        "Events"
+      ),
+      _react2.default.createElement(
+        _reactRouterDom.Link,
+        { to: "/contacts" },
+        "Contacts"
+      ),
+      _react2.default.createElement(
+        _reactRouterDom.Link,
+        { to: "/profile" },
+        "Profile"
       ),
       _react2.default.createElement(
         "div",
@@ -32866,28 +32772,38 @@ var HeaderMenuMobile = function HeaderMenuMobile(_ref) {
       { right: true, width: "100%", isOpen: false, className: "bm-menu" },
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { className: "bm-item-list", to: "/reserve-a-car" },
-        "Reserve a car"
+        { className: "bm-item-list", to: "/" },
+        "Home"
       ),
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { className: "bm-item-list", to: "/reserve-a-car" },
-        "Reserve a car"
+        { className: "bm-item-list", to: "/news" },
+        "News"
       ),
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { className: "bm-item-list", to: "/reserve-a-car" },
-        "Reserve a car"
+        { className: "bm-item-list", to: "/features" },
+        "Features"
       ),
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { className: "bm-item-list", to: "/reserve-a-car" },
-        "Reserve a car"
+        { className: "bm-item-list", to: "/events" },
+        "Events"
       ),
       _react2.default.createElement(
-        "a",
-        { className: "bm-item-list menu-item--small", href: "" },
-        "Settings"
+        _reactRouterDom.Link,
+        { className: "bm-item-list", to: "/contacts" },
+        "Contacts"
+      ),
+      _react2.default.createElement(
+        _reactRouterDom.Link,
+        { className: "bm-item-list", to: "/profile" },
+        "Profile"
+      ),
+      _react2.default.createElement(
+        _reactRouterDom.Link,
+        { className: "bm-item-list", to: "/login" },
+        "Log In"
       )
     )
   );
